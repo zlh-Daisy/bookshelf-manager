@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>书架管理</title>
+    
+<link href="bookManager.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <!--头部导航栏-->
+    <section id="topBar">
+        <div class="top">
+            <div class="picture">
+                <img src="" alt="头像"/>
+            </div>
+            <div class="idInfo">
+                <p class="id">ID</p>
+                <p>
+                    <span class="exit">退出</span>
+                    <span class="myArtical">我的作品</span>
+                </p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        
+        <div class="nav">
+            <div class="myBookshelf">我的书架</div>
+            <div class="recentlyRead">最近阅读</div>
+            <div style="clear: both"></div>
+        </div>
+    </section>
+    
+    <!--我的书架-->
+    <section id="myBookshelf">
+        <div class="operateInfo">
+            <span class="myListStyle">
+                <img src="tile.PNG"/>
+            </span>
+            <span class="collectionNum">最近读过4本</span>
+            <span class="sort">整理</span>
+        </div>
+        <div class="books"></div>
+        <div class="moveout">移出书架</div>
+    </section>
+    
+    <!--最近阅读-->
+    <section id="recentlyRead">
+        <div class="operateInfo">
+            <span class="recentListStyle">
+                <img src="list.PNG"/>
+            </span>
+            <span class="readNum">最近读过4本</span>
+            <span class="clearAll">清空</span>
+        </div>
+        <div class="books"></div>
+    </section>
+
+    <div id="mb_bground"></div>
+  
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
